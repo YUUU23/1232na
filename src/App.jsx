@@ -54,21 +54,8 @@ function App() {
     setFilteredEntries(fentries);
   }
 
-  function markFilterBtns() {
-    filters.forEach((op) => {
-      const button = document.getElementById(op);
-      console.log("button: ", button);
-      const opClass = op.replace(/\s+/g, "-");
-      if (!button.classList.contains(opClass)) {
-        button.classList.add(`filter-btn-clicked`);
-        button.classList.add(op.replace(/\s+/g, "-"));
-      }
-    });
-  }
-
   useEffect(() => {
     filterEntries();
-    markFilterBtns();
   }, [filters]);
 
   useEffect(() => {
@@ -90,6 +77,8 @@ function App() {
       button.classList.remove(opClass);
     } else {
       setFilters((filters) => [...filters, op]);
+      button.classList.add(`filter-btn-clicked`);
+      button.classList.add(opClass);
     }
   }
 
@@ -102,7 +91,7 @@ function App() {
           path='/1232na/'
           element={
             <div>
-              <h1 className='site-title'>/ᐠ-ꞈ-ᐟ\</h1>
+              <h1 className='site-title'>/ᐠ. .ᐟ\</h1>
               <div className='content-container'>
                 <TOC all_entries={filteredEntries} />
                 <div className='filter-container'>

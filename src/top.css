@@ -32,7 +32,7 @@
 
 .toc-year {
   text-align: left;
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: #1c352d;
   font-family: "Noto Sans Mono", monospace, sans-serif;
 }
@@ -98,15 +98,12 @@
   width: 3px;
   height: 3px;
   border-radius: 50%;
-}
-
-.filter-btn-clicked {
   color: black;
 }
 
 @media only screen and (max-width: 700px) {
   #root {
-    padding: 2em;
+    padding: 1.5em;
   }
 
   .content-container {
@@ -119,7 +116,15 @@
   }
 
   .last-update {
-    padding: 2em;
+    padding: 1em;
+  }
+
+  .toc {
+    font-size: 0.7em;
+  }
+
+  .toc-year {
+    font-size: 1em;
   }
 
   .entry {
