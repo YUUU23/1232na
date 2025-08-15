@@ -1,0 +1,137 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: 212121;
+  background-color: #f6f3eaf2;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --genre-Mystery: #feefad;
+  --genre-Fiction: #e0e5b6;
+  --genre-Non-Fiction: #7bd3ea;
+  --genre-True-Crime: #f6d6d6;
+  --genre-SciFi: #e5d9f2;
+  --genre-Ji-Shi: #c6e7ff;
+  --genre-Romance: #ffa09b;
+  --genre-Self-Help: #bed1cf;
+  --genre-Fantasy: #ffddcc;
+  --genre-San-Wen-Ji: #d7d3bf;
+  --genre-Horror: #f7eed3;
+}
+
+.Mystery {
+  background-color: var(--genre-Mystery);
+}
+
+.Fiction {
+  background-color: var(--genre-Fiction);
+}
+
+.Non-Fiction {
+  background-color: var(--genre-Non-Fiction);
+}
+
+.True-Crime {
+  background-color: var(--genre-True-Crime);
+}
+
+.SciFi {
+  background-color: var(--genre-SciFi);
+}
+
+.纪实 {
+  background-color: var(--genre-Ji-Shi);
+}
+
+.Romance {
+  background-color: var(--genre-Romance);
+}
+
+.Self-Help {
+  background-color: var(--genre-Self-Help);
+}
+
+.Fantasy {
+  background-color: var(--genre-Fantasy);
+}
+
+.散文集 {
+  background-color: var(--genre-San-Wen-Ji);
+}
+
+.Horror {
+  background-color: var(--genre-Horror);
+}
+
+.Mystery::after {
+  background-color: var(--genre-Mystery);
+}
+
+.Fiction::after {
+  background-color: var(--genre-Fiction);
+}
+
+.Non-Fiction::after {
+  background-color: var(--genre-Non-Fiction);
+}
+
+.True-Crime::after {
+  background-color: var(--genre-True-Crime);
+}
+
+.SciFi::after {
+  background-color: var(--genre-SciFi);
+}
+
+.纪实::after {
+  background-color: var(--genre-Ji-Shi);
+}
+
+.Romance::after {
+  background-color: var(--genre-Romance);
+}
+
+.Self-Help::after {
+  background-color: var(--genre-Self-Help);
+}
+
+.Fantasy::after {
+  background-color: var(--genre-Fantasy);
+}
+
+.散文集::after {
+  background-color: var(--genre-San-Wen-Ji);
+}
+
+.Horror::after {
+  background-color: var(--genre-Horror);
+}
+
+.language-dot::after {
+  background-color: #c75b7a;
+}
+
+/* #f6f3eaf2 */
+
+a {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #c75b7a;
+}
+
+a:active {
+  color: #c75b7a;
+}

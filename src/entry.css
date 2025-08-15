@@ -1,0 +1,54 @@
+.language {
+  align-items: center;
+  background-position: 0 0;
+  border: 1.5px solid;
+  border-radius: 6px;
+  margin: 0px 2px;
+  box-sizing: border-box;
+  font-size: 0.74em;
+  font-weight: 700;
+  padding: 1px 7px;
+  text-align: left;
+  margin-right: 7px;
+}
+
+.genre {
+  align-items: center;
+  background-position: 0 0;
+  border: 1.5px solid;
+  border-radius: 6px;
+  margin: 0px 1.2px;
+  box-sizing: border-box;
+  font-size: 0.74em;
+  font-weight: 700;
+  padding: 1px 7px;
+  text-align: left;
+  color: black;
+}
+
+.entry {
+  color: 212121;
+  text-align: left;
+  padding-left: 2em;
+  margin-bottom: 1.2em;
+  font-family: "Noto Sans Mono", monospace, sans-serif;
+}
+
+.entry > h1 {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 0.85em;
+}
+
+.entry-content {
+  font-size: 0.7em;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  gap: 0em;
+}
+
+.entries-year {
+  font-family: "Noto Sans Mono", monospace, sans-serif;
+  margin-bottom: 2em;
+}
