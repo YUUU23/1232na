@@ -99,7 +99,7 @@ function App() {
     <div>
       <Routes>
         <Route
-          path='/'
+          path='/1232na/'
           element={
             <div>
               <h1 className='site-title'>/ᐠ-ꞈ-ᐟ\</h1>

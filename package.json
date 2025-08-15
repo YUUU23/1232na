@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://yuuu23.github.io/1232na/",
+  "homepage": "http://yuuu23.github.io/1232na",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

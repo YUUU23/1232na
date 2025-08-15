@@ -103,3 +103,26 @@
 .filter-btn-clicked {
   color: black;
 }
+
+@media only screen and (max-width: 700px) {
+  #root {
+    padding: 2em;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: left;
+  }
+  .filter-container {
+    margin-left: 1.9em;
+  }
+
+  .last-update {
+    padding: 2em;
+  }
+
+  .entry {
+    padding: 0;
+  }
+}
