@@ -3,12 +3,12 @@ import "./entry.css";
 function Entry({ title, content }) {
   const GenreTag = ({ genre }) => {
     const genreClass = "genre " + genre.replace(/\s+/g, "-");
-    return <span className={genreClass}>{genre}</span>;
+    return <button className={genreClass}>{genre}</button>;
   };
 
   const LanguageTag = ({ language }) => {
     const languageClass = "language " + language;
-    return <span className={languageClass}>{language}</span>;
+    return <button className={languageClass}>{language}</button>;
   };
 
   const renderSection = (key, value) => {

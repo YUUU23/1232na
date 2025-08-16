@@ -10,7 +10,7 @@ function TOC({ all_entries }) {
             <h1 className='toc-year'>{year}: </h1>{" "}
             <ol className='toc'>
               {Object.keys(entries).map((t, idx) => (
-                <li key={idx}>
+                <li className='toc-title' key={idx}>
                   <HashLink to={`/${year}/#${t}`}>{t}</HashLink>
                 </li>
               ))}

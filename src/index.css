@@ -7,8 +7,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --genre-Mystery: #feefad;
-  --genre-Fiction: #e0e5b6;
+  --genre-Mystery: #faeb92;
+  --genre-Fiction: #ddeb9d;
   --genre-Non-Fiction: #7bd3ea;
   --genre-True-Crime: #f6d6d6;
   --genre-SciFi: #e5d9f2;
@@ -17,7 +17,7 @@
   --genre-Self-Help: #bed1cf;
   --genre-Fantasy: #ffddcc;
   --genre-San-Wen-Ji: #d7d3bf;
-  --genre-Horror: #f7eed3;
+  --genre-Horror: #ffa82597;
 }
 
 .Mystery {

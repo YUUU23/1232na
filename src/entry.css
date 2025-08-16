@@ -5,11 +5,15 @@
   border-radius: 6px;
   margin: 0px 2px;
   box-sizing: border-box;
-  font-size: 0.74em;
+  font-size: 0.7em;
   font-weight: 700;
   padding: 1px 7px;
+  height: 20px;
   text-align: left;
   margin-right: 7px;
+  font-family: "Noto Sans Mono", monospace, sans-serif;
+  color: black;
+  background-color: #f6f4eb;
 }
 
 .genre {
@@ -18,12 +22,15 @@
   border: 1.5px solid;
   border-radius: 6px;
   margin: 0px 1.2px;
+  height: 20px;
   box-sizing: border-box;
-  font-size: 0.74em;
+  font-size: 0.7em;
   font-weight: 700;
   padding: 1px 7px;
   text-align: left;
   color: black;
+  word-break: normal;
+  font-family: "Noto Sans Mono", monospace, sans-serif;
 }
 
 .entry {

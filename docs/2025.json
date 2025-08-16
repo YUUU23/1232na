@@ -17,7 +17,7 @@
   },
   "The Book of Goose": {
     "Rating": "🌕🌕🌕🌗🌑",
-    "Author": "川端康成",
+    "Author": "Yiyun Li",
     "Month": 1,
     "Language": "ENG",
     "Genre": ["Fiction"],
@@ -46,18 +46,25 @@
     "Language": "ENG",
     "Genre": ["Fiction"]
   },
-  "Why Fish Don’t Exist": {
-    "Rating": "🌕🌕🌕🌑🌑",
-    "Author": "Lulu Miller",
-    "Month": 8,
-    "Language": "ENG",
-    "Genre": ["Non-Fiction"]
-  },
   "三体1": {
     "Rating": "🌕🌕🌕🌕🌑",
     "Author": "刘慈欣",
     "Month": 8,
     "Language": "中文",
     "Genre": ["SciFi"]
+  },
+  "象之首": {
+    "Rating": "🌕🌕🌕🌕🌑",
+    "Author": "白井智之",
+    "Month": 8,
+    "Language": "日语",
+    "Genre": ["Mystery"]
+  },
+  "Why Fish Don’t Exist": {
+    "Rating": "🌕🌑🌑🌑🌑",
+    "Author": "Lulu Miller",
+    "Month": 8,
+    "Language": "ENG",
+    "Genre": ["Non-Fiction"]
   }
 }

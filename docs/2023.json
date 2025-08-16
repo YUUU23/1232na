@@ -63,9 +63,9 @@
     "Language": "中文",
     "Genre": ["Fiction"]
   },
-  "Pride and Prejudice ": {
+  "Pride and Prejudice": {
     "Rating": "🌕🌕🌕🌕🌗",
-    "Author": " 埃莱娜 费兰特",
+    "Author": "Jane Austen",
     "Month": 6,
     "Language": "ENG",
     "Genre": ["Fiction"]
@@ -79,7 +79,7 @@
   },
   "六个说谎的大学生": {
     "Rating": "🌕🌕🌕🌕🌗",
-    "Author": "岛田庄司",
+    "Author": "浅仓秋成",
     "Month": 7,
     "Language": "日语",
     "Genre": ["Mystery"]
@@ -110,7 +110,7 @@
   },
   "13.67": {
     "Rating": "🌕🌕🌕🌕🌗",
-    "Author": "伊坂幸太郎",
+    "Author": "陈浩基",
     "Month": 11,
     "Language": "中文",
     "Genre": ["Mystery"],
