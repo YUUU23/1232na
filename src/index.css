@@ -112,6 +112,10 @@
   background-color: #c75b7a;
 }
 
+.with-friends-dot::after {
+  background-color: none;
+}
+
 /* #f6f3eaf2 */
 
 a {

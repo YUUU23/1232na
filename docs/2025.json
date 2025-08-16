@@ -5,7 +5,8 @@
     "Month": 1,
     "Language": "日语",
     "Genre": ["Fiction"],
-    "Thoughts": "喜欢结局一切都烧掉了 喜欢雪\n\n后面还有一些短篇没有读完"
+    "Thoughts": "喜欢结局一切都烧掉了 喜欢雪\n\n后面还有一些短篇没有读完",
+    "with-friends": "with-friends"
   },
   "Babel": {
     "Rating": "🌕🌕🌕🌗🌑",
@@ -13,7 +14,8 @@
     "Month": 1,
     "Language": "ENG",
     "Genre": ["Fantasy"],
-    "Thoughts": "Liked the plot; didn’t like the Chinese or a little too much political things at the end. Story climaxed and tuned down a lot last 50 pages ish."
+    "Thoughts": "Liked the plot; didn’t like the Chinese or a little too much political things at the end. Story climaxed and tuned down a lot last 50 pages ish.",
+    "with-friends": "with-friends"
   },
   "The Book of Goose": {
     "Rating": "🌕🌕🌕🌗🌑",
@@ -29,7 +31,8 @@
     "Month": 6,
     "Language": "ENG",
     "Genre": ["Horror"],
-    "Thoughts": "没有想象中的那么恐怖。"
+    "Thoughts": "没有想象中的那么恐怖。",
+    "with-friends": "with-friends"
   },
   "The Seven Husbands of Evelyn Hugo": {
     "Rating": "🌕🌕🌕🌕🌑",
@@ -44,14 +47,16 @@
     "Author": "Amanda Peters",
     "Month": 6,
     "Language": "ENG",
-    "Genre": ["Fiction"]
+    "Genre": ["Fiction"],
+    "with-friends": "with-friends"
   },
   "三体1": {
     "Rating": "🌕🌕🌕🌕🌑",
     "Author": "刘慈欣",
     "Month": 8,
     "Language": "中文",
-    "Genre": ["SciFi"]
+    "Genre": ["SciFi"],
+    "with-friends": "with-friends"
   },
   "象之首": {
     "Rating": "🌕🌕🌕🌕🌑",
@@ -65,6 +70,7 @@
     "Author": "Lulu Miller",
     "Month": 8,
     "Language": "ENG",
-    "Genre": ["Non-Fiction"]
+    "Genre": ["Non-Fiction"],
+    "with-friends": "with-friends"
   }
 }

@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 
-function Footnote() {
+function Footnote({ month, year }) {
   const [showTextBox, setShowTextBox] = useState(false);
-  const today = new Date();
-  const dateString = `${today.getMonth() + 1}.${today.getDate()}`;
+  const dateString = `${month}/${year}`;
   function appearTextBox() {
     if (showTextBox) {
       setShowTextBox(false);

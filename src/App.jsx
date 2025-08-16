@@ -2,9 +2,12 @@ import "./App.css";
 import TOC from "./Toc";
 import Entry from "./Entry";
 import Footnote from "./Footnote";
-import all_entries from "./source";
+import source from "./source";
 import { Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
+
+const all_entries = source.all_entries;
+const lastEntryDate = source.lastEntryDate;
 
 function getOptionsForFilters(all_entries) {
   let language_options = [];
@@ -40,6 +43,9 @@ function App() {
       Object.entries(entries).forEach(([title, entry]) => {
         const { Language, Genre } = entry;
         const matching = [Language, ...Genre];
+        if (entry["with-friends"]) {
+          matching.push(entry["with-friends"]);
+        }
         let checker = (matching, filters) => {
           return filters.every((item) => matching.includes(item));
         };
@@ -124,9 +130,21 @@ function App() {
                       </button>
                     ))}
                   </div>
+                  <div className='filters with-friends'>
+                    <button
+                      className='filter-btn'
+                      key='with-friends'
+                      id='with-friends'
+                      onClick={(e) =>
+                        addFilter("with-friends", "with-friends-dot", e.target)
+                      }
+                    >
+                      with friends :p
+                    </button>
+                  </div>
                 </div>
               </div>
-              <Footnote />
+              <Footnote month={lastEntryDate.month} year={lastEntryDate.year} />
             </div>
           }
         ></Route>

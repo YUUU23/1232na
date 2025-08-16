@@ -11,4 +11,11 @@ let all_entries = {
   2021: entries_2021,
 };
 
-export default all_entries;
+const lastyear = 2020 + Object.keys(all_entries).length;
+const lastentries = all_entries[lastyear];
+console.log(lastentries, lastyear, lastentries, all_entries);
+const lastentry =
+  Object.entries(lastentries)[Object.keys(lastentries).length - 1];
+const lastEntryDate = { year: lastyear, month: lastentry[1]["Month"] };
+const source = { all_entries, lastEntryDate };
+export default source;
