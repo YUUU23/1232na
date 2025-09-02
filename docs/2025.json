@@ -50,7 +50,7 @@
     "Genre": ["Fiction"],
     "with-friends": "with-friends"
   },
-  "三体1": {
+  "三体I": {
     "Rating": "🌕🌕🌕🌕🌑",
     "Author": "刘慈欣",
     "Month": 8,
@@ -63,7 +63,8 @@
     "Author": "白井智之",
     "Month": 8,
     "Language": "日语",
-    "Genre": ["Mystery"]
+    "Genre": ["Mystery"],
+    "Thoughts": "The main character is obsessed with 'keeping his family together'. He receives a potion that allows him to branch at any point in time and travel back in time; but only 50% of the time would he actually succeed. I liked the set-up and the mystery, but the imagery is violent, gruesome, and quite sexual. It can be uncomfortable, but the mystery does not disappoint! The twists and narration adds a lot."
   },
   "Why Fish Don’t Exist": {
     "Rating": "🌕🌑🌑🌑🌑",
@@ -71,6 +72,24 @@
     "Month": 8,
     "Language": "ENG",
     "Genre": ["Non-Fiction"],
+    "Thoughts": "The author interweaves her own experience with 'chaos' and the things that don't go well in life, with a biography of David Starr Jordan. I had a lot of excitement for this book, since I like fish, and the premise of exploring chaos while collecting fish sounded interesting. However, the author sometimes tunes in to her private life a little too much for me, and a lot of time I don't agree with her moral values expressed in the book. The over-positive + bursting with excitement writing style also got too cringe for me.",
     "with-friends": "with-friends"
+  },
+  "三体II": {
+    "Rating": "🌕🌕🌕🌕🌘",
+    "Author": "刘慈欣",
+    "Month": 8,
+    "Language": "中文",
+    "Genre": ["SciFi"],
+    "Thoughts": "对比I，我更喜欢II。我喜欢交叉的叙事方式，在普通人，被选出来拯救地球的面壁人，军队，科学家中跳来跳去来推动人类整体是怎么面对危机。最喜欢后半部分对未来的描写。科幻和剧情很平衡，所以即使有读不懂的科学部分，也不会完全丢了在发生什么。",
+    "with-friends": "with-friends"
+  },
+  "Kim Jiyoung, Born 1982": {
+    "Rating": "🌕🌕🌕🌕🌑",
+    "Author": "Cho Nam-ju",
+    "Month": 8,
+    "Language": "韩语",
+    "Thoughts": "A depiction drawing out the life of 'any' east asian woman. I was amazed to find so many gender roles, phrases, and experiences that are also commonly experienced by Chinese women, although the main character is Korean. The extremely calm, casual, and daily narration strikingly outlines out how realistic and 'normal' the main character's experience is.",
+    "Genre": ["Fiction"]
   }
 }
