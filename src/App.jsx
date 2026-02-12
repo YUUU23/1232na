@@ -160,7 +160,12 @@ function App() {
                     {year}
                   </h1>
                   {Object.entries(entries).map(([title, content]) => (
-                    <Entry key={title} title={title} content={content} />
+                    <Entry
+                      key={title}
+                      title={title}
+                      content={content}
+                      year={year}
+                    />
                   ))}
                 </div>
               }

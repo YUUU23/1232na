@@ -41,10 +41,27 @@
   font-family: "Noto Sans Mono", monospace, sans-serif;
 }
 
-.entry > h1 {
+.entry-title-box {
+  display: grid;
+  grid-template-columns: 0.98fr auto;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.entry-title {
   font-weight: 700;
   font-style: bold;
-  font-size: 0.85em;
+  font-size: 0.89em;
+}
+
+.entry-info {
+  font-weight: 500;
+  font-style: bold;
+  font-size: 0.7em;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.8em;
+  gap: 0.2em;
 }
 
 .entry-content {
@@ -58,4 +75,10 @@
 .entries-year {
   font-family: "Noto Sans Mono", monospace, sans-serif;
   margin-bottom: 2em;
+}
+
+.cover_image {
+  max-width: 100px;
+  height: auto;
+  display: block;
 }

@@ -89,15 +89,32 @@
     "Author": "Cho Nam-ju",
     "Month": 8,
     "Language": "韩语",
-    "Thoughts": "A depiction drawing out the life of 'any' east asian woman. I was amazed to find so many gender roles, phrases, and experiences that are also commonly experienced by Chinese women, although the main character is Korean. The extremely calm, casual, and daily narration strikingly outlines out how realistic and 'normal' the main character's experience is.",
+    "Thoughts": "A depiction drawing out the life of 'any' east asian woman. I was amazed to find so many gender roles, phrases, and experiences that are also stereotypically experienced by Chinese women, although the main character is Korean. The extremely calm, casual, and daily narration strikingly outlines out how realistic and 'normal' the main character's experience is.",
     "Genre": ["Fiction"]
-  }, 
-   "夜旅人": {
+  },
+  "夜旅人": {
     "Rating": "🌕🌕🌕🌕🌑",
     "Author": "赵熙之",
     "Month": 11,
     "Language": "中文",
-    "Thoughts": "很淡的言情小说 + 不是很悬疑的轻悬疑。很好读。",
+    "Thoughts": "很好读，我读得很快。不是过分言情，也不是很悬疑。",
     "Genre": ["Romance", "Mystery"]
+  },
+  "Warriors: Into the Wild": {
+    "Rating": "🌕🌕🌕🌕🌑",
+    "Author": "Erin Hunter",
+    "Month": 12,
+    "Language": "ENG",
+    "Thoughts": "I've never read Warriors before, but I see my friend re-reading it this past semester, so after a not very smooth semester I wanted to binge read a book that is more chill. I enjoyed the story, especially the pacing and characters were introduced well, such that I didn't lose track of the cat names. However, I did not expect so many cats would be violently attacked, but it's the wilderness I guess :< ",
+    "Genre": ["Fantasy"]
+  },
+  "The Spear Cuts Through Water": {
+    "Rating": "🌕🌕🌕🌕🌗",
+    "Author": "Simon Jimenez",
+    "Month": 12,
+    "Language": "ENG",
+    "Thoughts": "This is the fourth fantasy I've read with friends. I love this one for its lowkey and not overpowering romance developed between Keema and Jun, adventure-centered plot, and a writing style that I'm not familiar with, making the reading experience super unique. The main story is told in a theatre setting, and the POV switches from an audience in second person, a third person narrating the main story, to scattered throughout, first person snippets appending outsider perspectives for context of the setting. The switching was challenging for me to pick up, making some parts harder to understand and the beginning slower to read. However, the perspectives do blend together really well in a magical way near the end of the book. Another part I liked was how the antagonist characters were built and solidified through the overarching family history and dynamic plot line. Similarly, Shan's part of the story at the end really ties the beginning to end in a satisfying way.",
+    "Genre": ["Fantasy", "Romance"],
+    "with-friends": "with-friends"
   }
 }
